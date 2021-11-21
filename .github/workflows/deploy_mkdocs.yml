@@ -17,4 +17,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EXTRA_PACKAGES: build-base
+          CUSTOM_DOMAIN: knowhow.kapra.de
 
