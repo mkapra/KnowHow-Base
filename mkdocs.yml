@@ -10,6 +10,7 @@ nav:
     - RAID: 'fisi/raid.md'
     - SNMP: 'fisi/snmp.md'
     - USV: 'fisi/usv.md'
+    - Nice2Know Ports: 'fisi/ports.md'
     - Glossar: 'fisi/glossar.md'
 
 theme:
