@@ -3,8 +3,8 @@
 * Referenzmodell für Netzwerkprotokolle als Schichtenarchitektur
 
 | Nr. | Schicht                      | Einordnung           | TCP/IP-Referenzmodell | Protokollbeispiele       | Kopplungselement                              |
-| -   | -                            | -                    | -                     | -                        | Gateway, Content-Switch, Proxy                |
-| 7   | Anwendungen (Application)    | Anwendungsorientiert | Anwendung             | DHCP, DNS, SMTP, HTTP(s) |                                               |
+| -   | -                            | -                    | -                     | -                        | -                                             |
+| 7   | Anwendungen (Application)    | Anwendungsorientiert | Anwendung             | DHCP, DNS, SMTP, HTTP(s) | Gateway, Content-Switch, Proxy                |
 | 6   | Darstellung (Presentation)   | Anwendungsorientiert | Anwendung             |                          |                                               |
 | 5   | Sitzung (Session)            | Anwendungsorientiert | Anwendung             |                          |                                               |
 | 4   | Transport                    | Transportorientiert  | Transport             | TCP, UDP                 |                                               |
