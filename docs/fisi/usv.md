@@ -14,7 +14,7 @@
 
 ## Voltage Independent (VI) Line Interactive-USV
 
-![Line Interactive-USV](../img/line_interactive_usv.png
+![Line Interactive-USV](../img/line_interactive_usv.png)
 
 * Auch `Netzinteraktive-USV` bezeichnet
 * Schützt vor Totalausfall und gegen Schwankungen
