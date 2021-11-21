@@ -6,10 +6,11 @@ edit_uri: edit/main/docs/
 nav:
   - index.md
   - FiSi:
+    - ISO/OSI: 'fisi/isoosi.md'
     - RAID: 'fisi/raid.md'
     - SNMP: 'fisi/snmp.md'
-    - ISO/OSI: 'fisi/isoosi.md'
     - USV: 'fisi/usv.md'
+    - Glossar: 'fisi/glossar.md'
 
 theme:
   name: material
