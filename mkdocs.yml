@@ -1,0 +1,26 @@
+site_name: KnowHow Base
+repo_url: https://github.com/mkapra/KnowHow-Base
+repo_name: mkapra/Knowhow-Base
+
+nav:
+  - index.md
+  - FiSi:
+    - RAID: 'fisi/raid.md'
+    - SNMP: 'fisi/snmp.md'
+    - ISO/OSI: 'fisi/isoosi.md'
+
+theme:
+  name: material
+  language: de
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - navigation.expand
+
+markdown_extensions:
+  - footnotes
+  - tables
