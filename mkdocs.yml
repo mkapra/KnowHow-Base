@@ -1,6 +1,7 @@
 site_name: KnowHow Base
 repo_url: https://github.com/mkapra/KnowHow-Base
 repo_name: mkapra/Knowhow-Base
+edit_uri: edit/main/docs/
 
 nav:
   - index.md
