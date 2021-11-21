@@ -12,6 +12,8 @@
 
 ### RAID 0 - Festplatten Striping
 
+![RAID 0](../img/raid0.png)
+
 * Alle Daten werden einfach auf die verschiedenen Festplatten verteilt
 * Nur geeignet für unkritische Anwendungen
 * Vorteile
@@ -21,7 +23,10 @@
 * Nachteile
     - Verwendet keine Parität[^1]. Somit ist keine Datenredundanz oder Fehlertoleranz verfügbar.
 
+
 ### RAID 1 - Disk Mirroring
+
+![RAID 1](../img/raid1.png)
 
 * Für dieses RAID werden mindestens zwei Festplatten benötigt
 * Alle Daten werden immer auf zwei seperate physische Festplatten geschrieben. Somit ist eine
@@ -35,16 +40,20 @@
 
 ### RAID 1+0 / RAID 10 - Plattenspiegelung und Striping
 
+![RAID 10](../img/raid10.png)
+
 - Für dieses RAID werden mindestens 4 Festplatten benötigt
 - Daten werden zuerst gespiegelt und dann gestriped
 - Geeignet für Dienste, die eine geringe Ausfallsicherheit benötigen
-
-![RAID 10](../img/RAID10.png)
 
 | <span style="color: green">Vorteile</span>                                                                          | <span style="color: red">Nachteile</span>                                                            |
 | -                                                                                                                   | -                                                                                                    |
 | Profitiert von der Leistung von `RAID 0`, da mehrere Schreibköpfe gleichzeitig auf Teile der Daten zugreifen können | Wenn ein Laufwerk verloren geht, muss auf das andere Stripe-Set zugegriffen werden                   |
 | Durch das `RAID 1` sind die Daten jedoch auch geschützt                                                             | Die Speicherkapazität wird auch hier verdoppelt. D.h. diese Variante ist teurer als andere Varianten |
+
+### RAID 0+1 / RAID 01 - Striping und Plattenspiegelung
+
+![RAID 10](../img/raid01.png)
 
 ### RAID 2 - Striping und Hamming-Code-Parität
 
@@ -72,6 +81,8 @@
 * Wird kaum mehr verwendet
 
 ### RAID 5 - Festplatten Striping mit Parität
+
+![RAID 5](../img/raid5.png)
 
 * Für dieses RAID werden mindestens drei Festplatten benötigt
 * Daten werden wie bei RAID 0 verteilt
