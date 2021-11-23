@@ -33,11 +33,14 @@
 * Sichert `Vertraulichkeit`, `Integrität` und `Authentizität` ab
 * Sammlung von Algorithmen und Funktionen
 
+| Ziel                 | Realisierung          |
+| -                    | -                     |
 | `Vertraulichkeit`    | Verschlüsselung       |
 | `Integrität`         | Hash-Funktionen       |
 | `Authentizität`      | Identitätsüberprüfung |
 | `Schlüsselaustausch` | Diffie-Hellman        |
 
+| Realisierung       | Konkrete Methode    |
 | Verschlüsselung    | DES, 3DES, AES      |
 | Prüfsummen         | MD5, SHA            |
 | Authentifizierung  | RSA, Pre-Shared-Key |
@@ -70,9 +73,9 @@
 * Aushandlung von Sicherheitsparametern für `IPsec`
 * UDP Port 500
 * Zwei Phasen
-    0. `SA` für Steuerung: Verschlüsselte Verbindung wird aufgebaut, ist aber nur für die Steuerung
+    1. `SA` für Steuerung: Verschlüsselte Verbindung wird aufgebaut, ist aber nur für die Steuerung
        gedacht
-    0. 2x `SA` für Daten: Jeweils eine verschlüsselte Verbindung von einem Gateway zum Anderen
+    2. 2x `SA` für Daten: Jeweils eine verschlüsselte Verbindung von einem Gateway zum Anderen
 * Phasen werden immer wieder erneut aufgebaut, um Brute-Force fast unmöglich zu machen
 
 ### IPsec-Protokolle
