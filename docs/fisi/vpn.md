@@ -41,6 +41,7 @@
 | `Schlüsselaustausch` | Diffie-Hellman        |
 
 | Realisierung       | Konkrete Methode    |
+| -                  | -                   |
 | Verschlüsselung    | DES, 3DES, AES      |
 | Prüfsummen         | MD5, SHA            |
 | Authentifizierung  | RSA, Pre-Shared-Key |
